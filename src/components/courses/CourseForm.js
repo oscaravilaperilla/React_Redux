@@ -10,7 +10,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
                 name="title"
                 label="Title"
                 value={course.title}
-                OnChange={onChange}
+                onChange={onChange}
                 error={errors.title}/>
             
             <SelectInput
@@ -26,7 +26,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
                 name="category"
                 label="Category"
                 value={course.category}
-                OnChange={onChange}
+                onChange={onChange}
                 error={errors.category}/>
             
             
@@ -34,7 +34,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
                 name="length"
                 label="Length"
                 value={course.length}
-                OnChange={onChange}
+                onChange={onChange}
                 error={errors.length}/>
             
             <input
